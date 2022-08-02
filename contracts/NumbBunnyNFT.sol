@@ -14,7 +14,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/finance/PaymentSplitter.sol";
 
 
-contract NumbBunnyNFTNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
+contract NumbBunnyNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
     using Counters for Counters.Counter;
     using ECDSA for bytes32;
     using Strings for uint256;
@@ -31,12 +31,12 @@ contract NumbBunnyNFTNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
     Counters.Counter private _tokenSupply;
     Counters.Counter private _freeSupply;
 
-    uint256 public constant MAX_TOKENS = 3500;
+    uint256 public constant MAX_TOKENS = 3100;
     uint256 public publicMintMaxLimit = 50;
     uint256 public whitelistMintMaxLimit = 50;
-    uint256 public tokenPrice = 0.12 ether;
+    uint256 public tokenPrice = 0.1 ether;
     uint256 public whitelistTokenPrice = 0.0 ether;
-    uint256 public maxWhitelistPassMints = 3500;
+    uint256 public maxWhitelistPassMints = 3100;
 
     bool public publicMintIsOpen = false;
     bool public privateMintIsOpen = true;
@@ -51,7 +51,7 @@ contract NumbBunnyNFTNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
 
     mapping(address => bool) whitelistedAddresses;
 
-    string public Author = "techoshi.eth";
+    string public Author = "Diablo";
     string public ProjectTeam = "nftpumps";
 
     struct WhitelistClaimPass {
