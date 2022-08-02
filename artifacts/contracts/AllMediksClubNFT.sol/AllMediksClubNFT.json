@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "AllMediksClubNFT",
-  "sourceName": "contracts/AllMediksClubNFT.sol",
+  "contractName": "NumbBunnyNFTNFT",
+  "sourceName": "contracts/NumbBunnyNFTNFT.sol",
   "abi": [
     {
       "inputs": [
@@ -1082,7 +1082,7 @@
               "type": "uint8"
             }
           ],
-          "internalType": "struct AllMediksClubNFT.WhitelistClaimPass",
+          "internalType": "struct NumbBunnyNFTNFT.WhitelistClaimPass",
           "name": "whitelistClaimPass",
           "type": "tuple"
         }
