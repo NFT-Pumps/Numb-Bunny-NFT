@@ -34,7 +34,7 @@ contract NumbBunnyNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
     uint256 public constant MAX_TOKENS = 3100;
     uint256 public publicMintMaxLimit = 50;
     uint256 public whitelistMintMaxLimit = 50;
-    uint256 public tokenPrice = 0.1 ether;
+    uint256 public tokenPrice = 0.03 ether;
     uint256 public whitelistTokenPrice = 0.0 ether;
     uint256 public maxWhitelistPassMints = 3100;
 

@@ -8,13 +8,17 @@ module.exports = [
     'https://public-pre-ipfs.s3.amazonaws.com/NumbBunnyNFT/assets/Unrevealed.json',
 
     [
-        ethers.utils.getAddress('0xe1EfD96423b310E45b7629e1c9d8a6a7B83d34ea'),
-        ethers.utils.getAddress('0x8912e40d291693C7A86C418D52b46766780C6989'),
+        ethers.utils.getAddress('0xf07839FAa0a863313bf217da333ac4d67aaB5923'),
+        ethers.utils.getAddress('0xF0A1A510191B3563F924C92B76ADD13Dc7CDD78a'),
+        ethers.utils.getAddress('0xa793EBC07b3c44123933c3e4e2b0A7807FEE8257'),
+        ethers.utils.getAddress('0x36CD5Dc24234332B3B7B2DC77AbC57242a05B7c9'),
         ethers.utils.getAddress('0x8912e40d291693C7A86C418D52b46766780C6989')
     ],
     [
-        80,
-        10,
+        40,
+        35,
+        5,
+        5,
         15
     ]
 ]
